@@ -1,0 +1,24 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+
+# Setup
+title:               Python
+tagline:             'Tour'
+description:         'Python'
+url:                 https://www.python.org
+baseurl:             '/py-tour'
+paginate:            20
+resource:            '/lessons'
+
+# About/contact
+author:
+  name:              Georgekutty Joyes
+
+# Github
+github:
+  repo:             https://github.com/g-kutty/py-tour
+
+# Custom vars
+version:             1.0.0
