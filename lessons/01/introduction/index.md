@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Python Syntax
+title: 01 - Python Syntax
 ---
 ***
 
