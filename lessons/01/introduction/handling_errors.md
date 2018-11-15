@@ -12,25 +12,29 @@ title:
 
 - Here are some common errors that we might run into when printing strings:
 
-- __SyntaxError__
+&nbsp;
 
-  - If the quotes are mismatched Python will notice this and inform you that your code has an error in its syntax because the line ended before the double-quote that was supposed to close the string appeared.
+➭ __SyntaxError__
+
+- If the quotes are mismatched Python will notice this and inform you that your code has an error in its syntax because the line ended before the double-quote that was supposed to close the string appeared.
 
     ```python
         print "Mismatched quotes will cause a SyntaxError'
     ```
 
-  - The program will abruptly stop running with the following message:
+- The program will abruptly stop running with the following message:
 
     ```python
         SyntaxError: EOL while scanning a string literal
     ```
 
-- __NameError__
+&nbsp;
 
-  - Another issue you might run into is attempting to create a string without quotes at all. Python treats words not in quotes as commands, like the `print` statement.
+➭ __NameError__
 
-  - If it fails to recognize these words as defined, Python will complain the code has a `NameError`.
+- Another issue you might run into is attempting to create a string without quotes at all. Python treats words not in quotes as commands, like the _print_ statement.
+
+- If it fails to recognize these words as defined, Python will complain the code has a `NameError`.
 
     ```python
         print Without quotes will cause a NameError

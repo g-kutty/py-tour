@@ -10,7 +10,7 @@ title:
 
 - Python automatically assigns a variable the appropriate datatype based on the value it is given.
 
-- A variable with the value 7 is an `integer`, 7. is a `float`, "7" is a `string`.
+- A variable with the value __7__ is an `integer`, __7.__ is a `float`, __"7"__ is a `string`.
 
 - Sometimes we will want to convert variables to different datatype. For example, if we wanted to print out an integer as part of a string, we would want to convert that integer to a string first.
 
