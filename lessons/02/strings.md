@@ -93,7 +93,7 @@ title: 02 - Strings
 
 ***
 
-- Let's take a closer look at why you use _len`(`string`)`_ and _str`(`object`)`_, but dot notation such as _"String"`.`upper()_ for the rest.
+- Let's take a closer look at why you use _len`(`string`)`_ and _str`(`object`)`_, but dot notation such as _"String".upper()_ for the rest.
 
 - Methods that use dot notation only work with strings.
 

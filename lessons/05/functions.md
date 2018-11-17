@@ -4,7 +4,7 @@ title: 05 - Functions
 ---
 ***
 
-You might have considered the situation where you would like to reuse a piece of code, just with a few different values. Instead of rewriting the whole code, it's much cleaner to define a `function`, which can then be used repeatedly.
+You might have considered the situation where you would like to reuse a piece of code, just with a few different values. Instead of rewriting the whole code, it's much cleaner to define a __function__, which can then be used repeatedly.
 
 &nbsp;
 
@@ -14,20 +14,20 @@ You might have considered the situation where you would like to reuse a piece of
 
 - Functions are defined with three components:
 
-  1. `header`, which includes the _def_ keyword, the name of the function, and any parameters the function requires.
+  1. __header__, which includes the _def_ keyword, the name of the function, and any parameters the function requires.
 
         ```python
         # There are no parameters
         def hello_world():
         ```
 
-  2. An optional `comment` that explains what the function does.
+  2. An optional __comment__ that explains what the function does.
 
         ```python
         """Prints 'Hello World!' to the console."""
         ```
 
-  3. The `body`, which describes the procedures the function carries out. The body is indented, just like conditional statements.
+  3. The __body__, which describes the procedures the function carries out. The body is indented, just like conditional statements.
 
         ```python
         print "Hello World!"
@@ -50,15 +50,15 @@ You might have considered the situation where you would like to reuse a piece of
 
 ***
 
-- Let's take another look at the definition of the function __square__:
+- Let's take another look at the definition of the function `square`:
 
     ```python
     def square(n):
     ```
 
-- Here, n is a __parameter__ of square. A parameter is a variable that is an input to a function.
+- Here, _n_ is a `parameter` of square. A parameter is a variable that is an input to a function.
 
-- The values of the parameters passed into a function are known as the __arguments__.
+- The values of the parameters passed into a function are known as the `arguments`.
 
     ```python
     square(10)
@@ -90,7 +90,7 @@ You might have considered the situation where you would like to reuse a piece of
 
 ***
 
-- There is a Python module named `math` that includes a number of useful variables and functions, and __sqrt()__ is one of those functions.
+- There is a Python module named `math` that includes a number of useful variables and functions, and `sqrt()` is one of those functions.
 
 - In order to access `math`, all you need is the import keyword. When you simply import a module this way, it's called a __generic import__.
 
@@ -105,7 +105,7 @@ You might have considered the situation where you would like to reuse a piece of
 
 ***
 
-- However, we only really needed the sqrt function, and it can be frustrating to have to keep typing _math_`.`_sqrt()_.
+- However, we only really needed the sqrt function, and it can be frustrating to have to keep typing `math.sqrt()`.
 
 - It's possible to import only certain variables or functions from a given _module_. Pulling in just a single function from a module is called a __function import__, and it's done with the from keyword:
 
@@ -121,7 +121,7 @@ You might have considered the situation where you would like to reuse a piece of
 
 ***
 
-- What if we still want all of the variables and functions in a module but don't want to have to constantly type _math._?
+- What if we still want all of the variables and functions in a module but don't want to have to constantly type `math.name`
 
 - __Universal import__ can handle this for you. The syntax for this is:
 
@@ -141,9 +141,9 @@ You might have considered the situation where you would like to reuse a piece of
 
 - If you do from math `import *`, however, you have a `problem`: namely, two different functions with the exact same name.
 
-- Even if your own definitions don't directly conflict with names from imported modules, if you `import *` from several modules at once, you won't be able to `figure out` which variable or function `came from where`.
+- Even if your own definitions don't directly conflict with names from imported modules, if you `import *` from several modules at once, you `won't` be able to `figure out` which variable or function came from where.
 
-- For these reasons, it's best to stick with either _import module_ and type _module.name_ or just _import_ specific variables and functions from various modules as needed.
+- For these reasons, it's best to stick with either _import module_ and type _module.name_ or just import specific variables and functions from various modules as needed.
 
 - Below code will show you everything available in the math module.
 
@@ -159,17 +159,17 @@ You might have considered the situation where you would like to reuse a piece of
 
 ***
 
-- let's look at some of the functions that are built in to Python (no modules required!).
+- let's look at some of the functions that are built in to Python (no modules required!):
 
-  - __max()__ function takes any number of arguments and returns the largest one.
+  - `max()` function takes any number of arguments and returns the largest one.
 
-  - __min()__ then returns the smallest of a given series of arguments.
+  - `min()` then returns the smallest of a given series of arguments.
 
-  - __abs()__ function returns the absolute value of the number it takes as an argument
+  - `abs()` function returns the absolute value of the number it takes as an argument
 
-    - For instance, `3` and `-3` both have the same absolute value: `3`. The _abs()_ function always returns a positive value, and unlike _max()_ and _min()_, it only takes a single number.
+        - For instance, `3` and `-3` both have the same absolute value: `3`. The _abs()_ function always returns a positive value, and unlike _max()_ and _min()_, it only takes a single number.
 
-  - __type()__ function returns the type of the data it receives as an argument.
+  - `type()` function returns the type of the data it receives as an argument.
 
     ```python
     print type(42)
