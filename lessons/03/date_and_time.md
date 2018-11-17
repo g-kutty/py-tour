@@ -23,7 +23,7 @@ title: 03 - Date and Time
         print datetime.now()
     ```
 
-- The first line imports the datetime library so that we can use it.
+- The first line imports the `datetime` library so that we can use it.
 
 - The second line will print out the current date and time.
 
@@ -33,7 +33,7 @@ title: 03 - Date and Time
 
 ***
 
-- Notice how the output looks like `2013-11-25 23:45:14.317454`.
+- Notice how the output looks like _2018-11-17 12:22:48.008771_
 
     ```python
         from datetime import datetime
@@ -83,6 +83,6 @@ title: 03 - Date and Time
         print now.second
     ```
 
-- In the above example, we just printed the current hour, then the current minute, then the current second.
+- In the above example, we just printed the current _hour_, then the current _minute_, then the current _second_.
 
 - We can again use the variable `now` to print the time.
