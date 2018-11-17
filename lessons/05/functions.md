@@ -167,7 +167,7 @@ You might have considered the situation where you would like to reuse a piece of
 
   - `abs()` function returns the absolute value of the number it takes as an argument
 
-        - For instance, `3` and `-3` both have the same absolute value: `3`. The _abs()_ function always returns a positive value, and unlike _max()_ and _min()_, it only takes a single number.
+    - For instance, `3` and `-3` both have the same absolute value: `3`. The _abs()_ function always returns a positive value, and unlike _max()_ and _min()_, it only takes a single number.
 
   - `type()` function returns the type of the data it receives as an argument.
 
