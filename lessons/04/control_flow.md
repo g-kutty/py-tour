@@ -78,14 +78,14 @@ title: 04 - Control flow
 
 - __Boolean operators__ compare statements and result in boolean values. There are three boolean operators:
 
-  1. `and`, which checks if both the statements are `True`.
+  1. `and`, which checks if both the statements are _True_.
 
         ```python
             1 < 2 and 2 < 3 is True
             1 < 2 and 2 > 3 is False
         ```
   
-  2. `or`, which checks if at least one of the statements is `True`.
+  2. `or`, which checks if at least one of the statements is _True_.
 
         ```python
             1 < 2 or 2 > 3 is True
@@ -108,7 +108,7 @@ title: 04 - Control flow
 
 ***
 
-- `if` is a conditional statement that executes some specified code after checking if its expression is `True`.
+- __if__ is a conditional statement that executes some specified code after checking if its expression is `True`.
 
   ```python
     if 8 < 9:
@@ -117,13 +117,13 @@ title: 04 - Control flow
 
 - Pay attention to the indentation before the `print` statement. This space, called `white space`, is how Python knows we are entering a new block of code.
 
-- Python accepts many different kinds of indentation to indicate blocks. In this lesson, we use four spaces but elsewhere you might encounter two-space indentation or tabs (which Python will see as different from spaces).
+- Python accepts many different kinds of indentation to indicate blocks. In this lesson, we use _four spaces_ but elsewhere you might encounter _two space_ indentation or _tabs_ (which Python will see as different from spaces).
 
 - If the indentation from one line to the next is different and there is no command (like `if`) that indicates an incoming block then Python will raise an `IndentationError`.
 
 - These errors could mean, for example, that one line had two spaces but the next one had three. Python tries to indicate where this error happened by printing the line of code it couldn't parse and using a `^` to point to where the indentation was different from what it expected.
 
-- Also, make sure you notice the colons at the end of the `if` statement. It's also important.
+- Also, make sure you notice the _colons_ at the end of the `if` statement. It's also important.
 
 &nbsp;
 
@@ -131,7 +131,7 @@ title: 04 - Control flow
 
 ***
 
-- The `else` statement complements the `if` statement. An `if/else` pair says: If this expression is true, run this indented code block; otherwise, run this code after the else statement.
+- The __else__ statement complements the `if` statement. An `if/else` pair says: If this expression is true, run this indented code block; otherwise, run this code after the _else_ statement.
 
 - Unlike `if`, `else` doesn't depend on an expression. For example:
 
@@ -148,7 +148,7 @@ title: 04 - Control flow
 
 ***
 
-- `elif` is short for `else if.` It means exactly what it sounds like: "otherwise, if the following expression is true, do this!"
+- __elif__ is short for `else if.` It means exactly what it sounds like: "otherwise, if the following expression is true, do this!"
 
     ```python
         if 8 > 9:
