@@ -12,9 +12,9 @@ title: 02 - Strings
         food = "cheese"
     ```
 
-- In the above example, we create a variable `name` and set it to the string value ``"Ryan"``.
+- In the above example, we create a variable `name` and set it to the string value _"Ryan"_.
 
-- We also set `age` to `"19"` and `food` to `"cheese"`.
+- We also set `age` to _"19"_ and `food` to _"cheese"_.
 
 - Strings need to be within quotes.
 
@@ -27,10 +27,10 @@ title: 02 - Strings
 - There are some characters that cause problems. For example:
 
     ```python
-        'There's a snake in my boot!'
+        'There's a snake in my boot'
     ```
 
-- This code breaks because Python thinks the apostrophe in `'There's'` ends the string. We can use the backslash to fix the problem, like this:
+- This code breaks because Python thinks the apostrophe in _'There`'`s'_ ends the string. We can use the backslash to fix the problem, like this:
 
     ```python
         'There\'s a snake in my boot!'
@@ -49,11 +49,11 @@ title: 02 - Strings
         n = "Ryan"[3]
     ```
 
-- In the above example, we create a new variable called `c` and set it to `"c"`, the character at index zero of the string `"cats"`.
+- In the above example, we create a new variable called `c` and set it to _"c"_, the character at index zero of the string _"cats"_.
 
-- Next, we create a new variable called `n` and set it to `"n"`, the character at index three of the string `"Ryan"`.
+- Next, we create a new variable called `n` and set it to _"n"_, the character at index three of the string _"Ryan"_.
 
-- Notice that in the first `"cat"` example we are calling the 0th letter of `"cat"` and getting `"c"` in return. This is because in Python indices begin counting at 0.
+- Notice that in the first _"cat"_ example we are calling the 0th letter of _"cat"_ and getting _"c"_ in return. This is because in Python indices begin counting at 0.
 
 &nbsp;
 
@@ -93,7 +93,7 @@ title: 02 - Strings
 
 ***
 
-- Let's take a closer look at why you use `len(string)` and `str(object)`, but dot notation such as `"String".upper()` for the rest.
+- Let's take a closer look at why you use _len`(`string`)`_ and _str`(`object`)`_, but dot notation such as _"String"`.`upper()_ for the rest.
 
 - Methods that use dot notation only work with strings.
 
@@ -105,7 +105,7 @@ title: 02 - Strings
 
 ***
 
-- The `+` operator between strings will __'add'__ them together, one after the other. Notice that there are spaces inside the quotation marks after `Life` and `of` so that we can make the combined string look like 3 words.
+- The `+` operator between strings will _'add'_ them together, one after the other. Notice that there are spaces inside the quotation marks after _Life_ and _of_ so that we can make the combined string look like 3 words.
 
     ```python
         print "Life " + "of " + "Brian"
