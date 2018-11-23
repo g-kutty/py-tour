@@ -9,7 +9,7 @@ title: 10 - OOP
 
 - [Classes](https://g-kutty.github.io/py-tour/lessons/10/class) can be very useful for storing complicated objects with their own methods and variables.
 
-- Defining a class is much like defining a function, but we use the `class` _keyword_ instead. We also use the word `object` in _parentheses_ because we want our classes to inherit the object class.
+- Defining a class is much like defining a function, but we use the `class` keyword instead. We also use the word `object` in parentheses because we want our classes to inherit the object class.
 
 - This means that our class has all the properties of an object, which is the simplest, most basic class.
 
@@ -71,7 +71,7 @@ title: 10 - OOP
 
 - Calling class member variables works the same whether those values are created within the class or values are passed into the new object at initialization.
 
-- We use _dot_ notation to access the member variables of classes since those variables belong to the object.
+- We use `dot` notation to access the member variables of classes since those variables belong to the object.
 
 - For instance, if we had created a member variable named `new_variable`, a new instance of the class named `new_object` could access this variable by saying:
 

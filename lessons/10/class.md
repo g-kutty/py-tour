@@ -11,7 +11,7 @@ title:
 
 - You can think of an object as a single data structure that contains data as well as functions.
 
-- The functions of an object are called its methods. For example,
+- The _functions_ of an object are called its `methods`. For example,
 
     ```python
         len("Eric")
@@ -40,7 +40,7 @@ title:
             # Class magic here
     ```
 
-- This gives them the powers and abilities of a Python object. By convention, user-defined Python class names start with a capital letter.
+- This gives them the powers and abilities of a Python object. By convention, user-defined python class names start with a capital letter.
 
 - `__init__()`. This function is required for classes, and it's used to initialize the objects it creates.
 
@@ -66,13 +66,13 @@ title:
 
     1. First we create a class named `Square` with an attribute `sides`.
 
-    2. Outside the class definition, we create a new instance of `Square` named `my_shape` and access that attribute using `my_shape.sides`.
+    2. Outside the class definition, we create a new instance of `Square` named `my_shape` and access that attribute using _my_shape.sides_.
 
 &nbsp;
 ## Class Scope
 ***
 
-- Another important aspect of Python classes is scope. The scope of a variable is the context in which it's visible to the program.
+- Another important aspect of Python classes is __scope__. The scope of a variable is the context in which it's visible to the program.
 
 - When dealing with classes, you can have `variables` that are available everywhere (`global` variables), variables that are only available to members of a certain class (`member` variables), and variables that are only available to particular instances of a class (`instance` variables)
 
@@ -82,7 +82,7 @@ title:
 ## They're Multiplying!
 ***
 
-- A class can have any number of `member variables`. These are variables that are available to all members of a class.
+- A class can have any number of `member` variables. These are variables that are available to all members of a class.
 
     ```python
         class Animal(object):
@@ -182,7 +182,7 @@ title:
 ## Override!
 ***
 
-- Sometimes you'll want one class that inherits from another to not only take on the methods and attributes of its parent, but to _override_ one or more of them.
+- Sometimes you'll want one class that inherits from another to not only take on the methods and attributes of its parent, but to __override__ one or more of them.
 
     ```python
         class Employee(object):
@@ -212,7 +212,7 @@ title:
 ## This Looks Like a Job For...
 ***
 
-- On the flip side, sometimes you'll be working with a derived class (or _subclass_) and realize that you've overwritten a method or attribute defined in base class (also called a parent or _superclass_) that you actually need.
+- On the flip side, sometimes you'll be working with a `derived` class (or _subclass_) and realize that you've overwritten a method or attribute defined in base class (also called a `parent` or _superclass_) that you actually need.
 
 - Have no fear! You can directly access the attributes or methods of a super class with Python's built-in `super` call.
 
@@ -225,3 +225,18 @@ title:
     ```
 
 - Where `m()` is a method from the base class.
+
+- Example:
+
+    ```python
+        class Mammal(object):
+            def __init__(self, name):
+                print(name, "is a warm-blooded animal.")
+
+        class Dog(Mammal):
+            def __init__(self):
+                print("Dog has four legs.")
+                super(Dog, self).__init__('Dog')
+
+        d1 = Dog()
+    ```
