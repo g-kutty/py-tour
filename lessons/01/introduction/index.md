@@ -4,26 +4,26 @@ title: 01 - Python Syntax
 ---
 ***
 
-- Let's go through python basic syntax
+- ### [Comments](https://george-kj.github.io/py-tour/lessons/01/introduction/comment)
 
-  ➭ [Print statement](https://g-kutty.github.io/py-tour/lessons/01/introduction/print_statement)
+    The way of making the source code easier for humans to understand, and are generally ignored by compilers and interpreters.
 
-  ➭ [Strings](https://g-kutty.github.io/py-tour/lessons/01/introduction/string)
+- ### [Print Statement](https://george-kj.github.io/py-tour/lessons/01/introduction/print)
 
-  ➭ [Handling Errors](https://g-kutty.github.io/py-tour/lessons/01/introduction/error_handling)
+    The print statement is used to send output to the standard output unit ( usually your monitor, or sometimes your printer ) of your computer system.
 
-  ➭ [Variables](https://g-kutty.github.io/py-tour/lessons/01/introduction/variable)
+- ### [Strings](https://george-kj.github.io/py-tour/lessons/01/introduction/string)
 
-  ➭ [Arithmetic Operations](https://g-kutty.github.io/py-tour/lessons/01/introduction/arithmetic)
+    Text in Python is considered a specific type of data called a string, A string, so named because they're a series of letters, numbers, or symbols connected in order.
 
-  ➭ [Comments](https://g-kutty.github.io/py-tour/lessons/01/introduction/comment)
+- ### [Variables](https://george-kj.github.io/py-tour/lessons/01/introduction/variable)
 
-  ➭ [Numbers](https://g-kutty.github.io/py-tour/lessons/01/introduction/number)
+    In Python, and when programming in general, we need to build systems for dealing with data that changes over time. Python uses variables to define things that are subject to change.
 
-  ➭ [Two type of Division](https://g-kutty.github.io/py-tour/lessons/01/introduction/types_of_division)
+- ### [Errors](https://george-kj.github.io/py-tour/lessons/01/introduction/error)
 
-  ➭ [Multi line String](https://g-kutty.github.io/py-tour/lessons/01/introduction/multi_line_string)
+    These are complaints that Python makes when it doesn't understand what you want it to do.
 
-  ➭ [Booleans](https://g-kutty.github.io/py-tour/lessons/01/introduction/boolean)
+- ### [Calculations](https://george-kj.github.io/py-tour/lessons/01/introduction/calculations)
 
-  ➭ [Value Errors](https://g-kutty.github.io/py-tour/lessons/01/introduction/value_error)
+    One thing computers are capable of doing exceptionally well is performing arithmetic. _Addition_, _subtraction_, _multiplication_, _division_, and other numeric calculations are easy to do in most programming languages, and Python is no exception.

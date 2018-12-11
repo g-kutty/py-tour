@@ -5,8 +5,8 @@ permalink:           pretty
 
 # Setup
 title:               Python
-tagline:             'Tour'
-description:         'Python'
+tagline:             'python'
+description:         'A Tour of Python'
 url:                 https://www.python.org
 baseurl:             '/py-tour'
 paginate:            20
@@ -18,7 +18,7 @@ author:
 
 # Github
 github:
-  repo:             https://github.com/g-kutty/py-tour
+  repo:             https://github.com/george-kj/py-tour
 
 # Custom vars
 version:             1.0.0

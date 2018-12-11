@@ -5,16 +5,31 @@ title:
 ***
 
 ## Comments
-
 ***
 
-- Most of the time, code should be written in such a way that it is easy to understand on its own.
+- Ironically, the first thing we're going to do is show how to tell a computer to ignore a part of a program.
 
-- However, if you want to include a piece of information to explain a part of your code, you can use the `#` sign. A line of text preceded by a `#` is called a comment.
+- Text written in a program but not run by the computer is called a _comment_. Python interprets anything after a `#` as a comment.
 
-- The machine does not run this code — it is only for humans to read.
+- Comments can:
 
-    ```Python
-        # This variable counts how many rows of the spreadsheet we have:
-        row_count = 13
+  - Provide context for why something is written the way it is:
+
+    ```python
+        # This variable will be used to count the number of times anyone tweets the word persnickety
+        persnickety_count = 0
+    ```
+
+  - Help other people reading the code understand it faster:
+
+    ```python
+        # This code will calculate the likelihood that it will rain tomorrow
+        complicated_rain_calculation_for_tomorrow()
+    ```
+
+  - Ignore a line of code and see how a program will run without it:
+
+    ```python
+        # useful_value = old_sloppy_code()
+        useful_value = new_clean_code()
     ```
