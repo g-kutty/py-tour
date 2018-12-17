@@ -31,7 +31,7 @@ title:
         print(message_string)
 
         # Farewell
-        message_string = "Hasta la vista"
+        message_string = "Bye guys"
         print(message_string)
     ```
 

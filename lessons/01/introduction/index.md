@@ -2,6 +2,8 @@
 layout: page
 title: 01 - Python Syntax
 ---
+
+## Introduction
 ***
 
 - ### [Comments](https://george-kj.github.io/py-tour/lessons/01/introduction/comment)
