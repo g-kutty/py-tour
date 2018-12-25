@@ -56,7 +56,6 @@ title: 02 - Functions
 
     ```python
         # Indentation is used to identify code blocks
-
         def test_function(number):
             # This code is part of test function
             print("Inside the test_function")
