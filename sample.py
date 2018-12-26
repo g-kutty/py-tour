@@ -1,9 +1,9 @@
-a = 1
+numbers = [1, 25, -1, -2, 3]
 
+for num in numbers:
+    if (num < 0):
+        print('Negative number detected!')
+        break
+    print(num)
 
-def f1():
-    print(a)
-
-
-a = 2
-print(f1())
+print('Finished looping')

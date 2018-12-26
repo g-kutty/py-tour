@@ -186,7 +186,7 @@ title: 04 - List
     ```
 
 &nbsp;
-## The .count() List Method
+## The `.count()` List Method
 ***
 
 - The `.count()` Python list method searches a list for whatever search term it receives as an argument, then returns the number of matching entries found.
@@ -199,7 +199,7 @@ title: 04 - List
     ```
 
 &nbsp;
-## The .sort() List Method
+## The `.sort()` List Method
 ***
 
 - The `.sort()` Python list method will sort the contents of whatever list it is called on.
@@ -207,7 +207,7 @@ title: 04 - List
 - Numerical lists will be sorted in ascending order, and lists of Strings will be sorted into alphabetical order. It modifies the original list, and has no return value.
 
 &nbsp;
-## The Python sorted() Function
+## The Python `sorted()` Function
 ***
 
 - The Python `sorted()` function accepts a list as an argument, and will return a new, sorted list containing the same elements as the original.
