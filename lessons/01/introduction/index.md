@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 01 - Python Syntax
+title: 01 - Basics
 ---
 
 ## Introduction

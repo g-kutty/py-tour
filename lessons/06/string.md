@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 06 - Strings
+title: 06 - String
 ---
 ***
 

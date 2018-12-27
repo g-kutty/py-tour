@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 02 - Functions
+title: 02 - Function
 ---
 
 ## Python Functions
