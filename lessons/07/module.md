@@ -24,7 +24,7 @@ title: 07 - Module
 - Often, a library will include a lot of code that you don't need that may slow down your program or conflict with existing code. Because of this, it makes sense to only import what you need.
 
 &nbsp;
-## Python Modules Random and Datetime
+## Python Modules Examples
 ***
 
 - One common library that comes as part of the Python Standard Library is `datetime`.`datetime` helps you work with dates and times in Python.
