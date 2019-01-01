@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 09 - Bitwise Operations
+title: 16 - Bitwise Operations
 ---
 ***
 

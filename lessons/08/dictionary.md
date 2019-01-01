@@ -101,7 +101,11 @@ title: 08 - Dictionaries
 
 - When trying to look at the information in a Python dictionary, there are multiple methods that access the dictionary and return lists of its contents.
 
-- `.keys()` returns the keys (the first object in the key-value pair), `.values()` returns the values (the second object in the key-value pair), and `.items()` returns both the keys and the values as a tuple.
+- `.keys()` returns the keys (the first object in the key-value pair.
+
+- `.values()` returns the values (the second object in the key-value pair).
+
+- `.items()` returns both the keys and the values as a tuple.
 
     ```python
         ex_dict = {"a": "anteater", "b": "bumblebee", "c": "cheetah"}
