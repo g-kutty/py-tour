@@ -115,4 +115,4 @@ title: 07 - Module
 
 - Files are actually _modules_, so you can give a file access to another file's content using that glorious `import` statement.
 
-- With a single line of `from sandwiches import sandwiches` at the top of __hungry_people.py__, the hungry people will have all the sandwiches they could ever want.
+- With a single line of `from sandwiches import sandwiches` at the top of _hungry_people.py_, the hungry people will have all the sandwiches they could ever want.

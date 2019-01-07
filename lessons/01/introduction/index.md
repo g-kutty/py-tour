@@ -37,3 +37,7 @@ title: 01 - Basics
 - ### [Logical Operators](https://george-kj.github.io/py-tour/lessons/01/introduction/logical_operators)
 
     The concept of logical operators is simple. They allow a program to make a decision based on multiple conditions. Each operand is considered a condition that can be evaluated to a _True_ or _False_ value.
+
+- ### [Bitwise Operations](https://george-kj.github.io/py-tour/lessons/01/introduction/bitwise_operation)
+
+    Bitwise operations are operations that directly manipulate bits. In all computers, numbers are represented with bits, a series of zeros and ones. In fact, pretty much everything in a computer is represented by bits.

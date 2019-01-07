@@ -197,8 +197,8 @@ title: 10 - Classes
                 # make sure phrase is a string
                 if type(phrase) == str:
 
-                # then shout it out
-                print(phrase.upper())
+                    # then shout it out
+                    print(phrase.upper())
 
         shout1 = Shouter("shout")
         # prints "SHOUT"
@@ -301,7 +301,7 @@ title: 10 - Classes
 
 - Instance variables are more powerful when you can guarantee a rigidity to the data the object is holding.
 
-- This convenience is most apparent when the constructor creates the instance variables, using the arguments passed in to it.
+- This convenience is most apparent when the constructor creates the instance variables, using the arguments passed into it.
 
 - If we were creating a search engine, and we wanted to create classes for each separate entry we could return. We'd do that like this:
 
