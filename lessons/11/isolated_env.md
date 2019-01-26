@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 11 - Isolated Environments
+title: 11 - Virtual Environments
 ---
 ***
 
@@ -28,3 +28,7 @@ title: 11 - Isolated Environments
   - Virtual Environment should be used whenever you work on any Python based project. It is generally good to have one new virtual environment for every Python based project you work on.
   
   - So the dependencies of every project are isolated from the system and each other.
+
+- ### Different virtual environment techniques
+
+  - [Virtual Env](https://george-kj.github.io/py-tour/lessons/11/virtual_env)
