@@ -32,3 +32,5 @@ title: 11 - Virtual Environments
 - ### Different virtual environment techniques
 
   - [Virtual Env](https://george-kj.github.io/py-tour/lessons/11/virtual_env)
+
+  - [Pip Env](https://george-kj.github.io/py-tour/lessons/11/pip_env)
