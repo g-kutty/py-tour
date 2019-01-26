@@ -4,57 +4,23 @@ title: 11 - Isolated Environments
 ---
 ***
 
-## Virtual Env
+## Virtual Environment
 ***
 
-- [virtualenv](https://pypi.org/project/virtualenv/) is a very popular tool that creates isolated Python environments for Python libraries.
+- A virtual environment is a tool that helps to keep dependencies required by different projects separate by creating isolated python virtual environments for them. This is one of the most important tools that most of the Python developers use.
 
-- It works by installing a bunch of files in a directory (eg: `env/`), and then modifying the `PATH` environment variable to prefix it with a custom bin directory (eg: `env/bin/`).
+- ### Why do we need a virtual environment?
 
-- An exact copy of the `python` or `python3` binary is placed in this directory, but Python is programmed to look for libraries relative to its path first, in the environment directory.
+  - Imagine a scenario where you are working on two web based python projects and one of them uses a Django 1.9 and the other uses Django 1.10 and so on. In such situations virtual environment can be really useful to maintain dependencies of both the projects.
 
-- It's not part of Python's standard library, but is officially blessed by the PyPA (Python Packaging Authority). Once activated, you can install packages in the virtual environment using `pip`.
+- ### When and where to use a virtual environment?
 
-&nbsp;
-## Steps for setup
-***
+  - By default, every project on your system will use these same directories to store and retrieve site packages.
 
-- We can install `virtualenv` package in your local machine using `pip`.
+  - This is a real problem for Python since it can’t differentiate between versions in the “site-packages” directory. So both v1.9 and v1.10 would reside in the same directory with the same name.
 
-    ```sh
-        pip install virtualenv
-    ```
+  - This is where virtual environments come into play. To solve this problem, we just need to create two separate virtual environments for both the projects.
 
-- For creating isolated environment for each projects:
+  - The great thing about this is that there are no limits to the number of environments you can have since they’re just directories containing a few scripts.
 
-    ```sh
-        virtualenv project_name
-    ```
-
-- Then `activate` newly created environment for that project:
-
-    ```sh
-        source ./env/bin/activate
-    ```
-
-- We can simply `deactivate` this isolated environment and go back to default global environment by typing `deactivate` on terminal.
-
-    ```sh
-        deactivate
-    ```
-
-- For collecting all package information in the isolated environment into one file:
-
-    ```sh
-        pip freeze --local > requirements.txt
-    ```
-
-- Also we can install all required packages form `requirement.txt` into another isolated environment or machine.
-
-    ```sh
-        pip install -r requirements.txt --no-index --find-links file:///tmp/packages
-    ```
-
-  - `--no-index` - Ignore package index (only looking at `--find-links` URLs instead).
-
-  - `-f`, `--find-links` <URL> - If a URL or path to an html file, then parse for links to archives. If a local path or file:// URL that's a directory, then look for archives in the directory listing.
+  - Virtual Environment should be used whenever you work on any Python based project. It is generally good to have one new virtual environment for every Python based project you work on. So the dependencies of every project are isolated from the system and each other.
