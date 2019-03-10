@@ -1,2 +1,3 @@
 .atom
 .vscode
+__pycache__/
