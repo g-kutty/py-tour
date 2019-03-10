@@ -35,7 +35,7 @@
  * Update the foundational and global aspects of the page.
  */
 
- * {
+* {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
@@ -54,12 +54,12 @@ html {
 }
 @media (min-width: 38em) {
   html {
-    font-size: 19.5px;
+    font-size: 20px;
   }
 }
 
 body {
-  color: #2c3e50;
+  color: #515151;
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
@@ -91,16 +91,11 @@ h1 {
   font-size: 2rem;
 }
 h2 {
-  margin-top: 2rem;
-  margin-bottom: 0rem;
+  margin-top: 1rem;
   font-size: 1.5rem;
-  /* white-space:nowrap; */
-  /* overflow: auto; */
-  /* line-height: 0.5; */
 }
 h3 {
   margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
   font-size: 1.25rem;
 }
 h4, h5, h6 {
@@ -160,25 +155,28 @@ pre {
 code {
   padding: .25em .5em;
   font-size: 85%;
-  color: #aa0505;
+  color: #bf616a;
   background-color: #f9f9f9;
   border-radius: 3px;
 }
 pre {
-  padding: 0.8rem 0.8rem 0.8rem 0.0rem;
+  display: block;
   margin-top: 0;
   margin-bottom: 1rem;
+  padding: 1rem;
   font-size: .8rem;
-  color: #567482;
-  word-wrap: 1rem;
-  background-color: #f3f6fa;
-  border: solid 1px #dce6f0;
+  line-height: 1.4;
+  /* white-space: pre; */
+  /* white-space: pre-wrap; */
+  word-break: break-all;
+  word-wrap: break-word;
+  background-color: #f9f9f9;
   overflow: auto;
 }
 pre code {
   padding: 0;
-  font-size: 90%;
-  color: #033;
+  font-size: 100%;
+  color: inherit;
   background-color: transparent;
 }
 
@@ -219,7 +217,6 @@ blockquote {
   margin: .8rem 0;
   color: #7a7a7a;
   border-left: .25rem solid #e5e5e5;
-  overflow: auto;
 }
 blockquote p:last-child {
   margin-bottom: 0;

@@ -15,10 +15,11 @@ resource:            '/lessons'
 # About/contact
 author:
   name:              Georgekutty Joyes
+  url:               https://github.com/george-kj
+  email:             georgekuttyjoyes@gmail.com
 
-# Github
+
+# Github repo
 github:
-  repo:             https://github.com/george-kj/py-tour
-
-# Custom vars
-version:             1.0.0
+  repo:             https://github.com/george-kj/lanyon               
+  tag:              1.0.0
