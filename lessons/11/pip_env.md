@@ -17,7 +17,7 @@ title:
 
   - You no longer need to use `pip` and `virtualenv` separately. They work together.
 
-  - Managing a _requirements.txt_ file can be problematic, so _Pipenv_ uses `Pipfile` and `Pipfile.lock` to separate abstract dependency declarations from the last tested combination.
+  - Managing a `requirements.txt` file can be problematic, so Pipenv uses `Pipfile` and `Pipfile.lock` to separate abstract dependency declarations from the last tested combination.
 
   - Hashes are used everywhere, always. Security. Automatically expose security vulnerabilities.
 
@@ -27,6 +27,7 @@ title:
 
   - Streamline development workflow by loading `.env` files.
 
+&nbsp;
 ## Pipenv Features
 ***
 
@@ -48,6 +49,7 @@ title:
 
 The main commands are _install_, _uninstall_, and _lock_, which generates a `Pipfile.lock`. These are intended to replace `pip install` usage, as well as manual virtualenv management (to activate a virtualenv, run `pipenv shell`).
 
+&nbsp;
 ## Basic Concepts
 ***
 
@@ -61,6 +63,7 @@ The main commands are _install_, _uninstall_, and _lock_, which generates a `Pip
 
 - Otherwise, whatever virtualenv defaults to will be the default.
 
+&nbsp;
 ## Other Commands
 ***
 

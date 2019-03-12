@@ -7,70 +7,67 @@ title:
 ## Virtual Env
 ***
 
-- We use a module named __virtualenv__ which is a tool to create isolated Python environments.
+- __Virtualenv__ is a tool to create isolated python environments.
 
-- virtualenv creates a folder which contains all the necessary executables to use the packages that a Python project would need.
+- Virtualenv creates a folder which contains all the necessary executables to use the packages that a python project would need.
 
-- ### Installing virtualenv
+&nbsp;
+## Usage
+***
+
+- Install virtualenv via pip
 
     ```python
         pip install virtualenv
     ```
-- ### Test your installation:
 
-    ```python
-        virtualenv --version
-    ```
+- You can create a virtualenv using the following command:
 
-- ### Using virtualenv
+  ```python
+      virtualenv env_name
+  ```
 
-  - You can create a virtualenv using the following command:
+- After running this command, a directory named `env_name` will be created. This is the directory which contains all the necessary executables to use the packages that a python project would need.
 
-    ```python
-        virtualenv my_name
-    ```
+- This is where python packages will be installed. If you want to specify python interpreter of your choice, for example python 3, It can be done using the following command:
 
-  - After running this command, a directory named my_name will be created. This is the directory which contains all the necessary executables to use the packages that a Python project would need.
+  ```python
+      virtualenv -p /usr/bin/python3 virtualenv_name
+  ```
 
-  - This is where Python packages will be installed. If you want to specify Python interpreter of your choice, for example Python 3, it can be done using the following command:
+- Now after creating virtual environment, you need to `activate` it. Remember to activate the relevant virtual environment every time you work on the project. This can be done using the following command:
 
-    ```python
-        virtualenv -p /usr/bin/python3 virtualenv_name
-    ```
+  ```python
+      source virtualenv_name/bin/activate
+  ```
 
-  - Now after creating virtual environment, you need to activate it. Remember to activate the relevant virtual environment every time you work on the project. This can be done using the following command:
+- Once the virtual environment is activated, the name of your virtual environment will appear on left side of terminal. This will let you know that the virtual environment is currently active.
 
-    ```python
-        source virtualenv_name/bin/activate
-    ```
+- Now you can install `dependencies` related to the project in this virtual environment. For example if you are using Django 1.9 for a project, you can install it like you install other packages.
 
-  - Once the virtual environment is activated, the name of your virtual environment will appear on left side of terminal. This will let you know that the virtual environment is currently active.
+  ```python
+      pip install Django==1.9
+  ```
 
-  - Now you can install dependencies related to the project in this virtual environment. For example if you are using Django 1.9 for a project, you can install it like you install other packages.
+- The Django 1.9 package will be placed in virtualenv_name folder and will be isolated from the complete system.
 
-    ```python
-        pip install Django==1.9
-    ```
+- Once you are done with the work, you can `deactivate` the virtual environment by the following command:
 
-  - The Django 1.9 package will be placed in virtualenv_name folder and will be isolated from the complete system.
+  ```python
+      deactivate
+  ```
 
-  - Once you are done with the work, you can deactivate the virtual environment by the following command:
+- We can collect all package information in the isolated environment into one file using command:
 
-    ```python
-        deactivate
-    ```
+  ```sh
+      pip freeze --local > requirements.txt
+  ```
 
-  - We can collect all package information in the isolated environment into one file using command:
+- For installing all required packages form `requirement.txt` into another isolated environment or machine.
 
-    ```sh
-        pip freeze --local > requirements.txt
-    ```
-
-  - For installing all required packages form `requirement.txt` into another isolated environment or machine.
-
-    ```sh
-        pip install -r requirements.txt --no-index --find-links file:///tmp/packages
-    ```
+  ```sh
+      pip install -r requirements.txt --no-index --find-links file:///tmp/packages
+  ```
 
   - `--no-index` - Ignore package index (only looking at `--find-links` URLs instead).
 
