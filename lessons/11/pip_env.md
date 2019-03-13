@@ -13,6 +13,8 @@ title:
 
 - It also generates the ever-important `Pipfile.lock`, which is used to produce deterministic builds.
 
+  ![pipenv.gif](https://github.com/george-kj/py-tour/blob/master/public/images/pipenv.gif?raw=true)
+
 - The problems that Pipenv seeks to solve are multi-faceted:
 
   - You no longer need to use `pip` and `virtualenv` separately. They work together.
