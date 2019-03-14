@@ -43,13 +43,13 @@ title:
 
 - Once the virtual environment is activated, the name of your virtual environment will appear on left side of terminal. This will let you know that the virtual environment is currently active.
 
-- Now you can install `dependencies` related to the project in this virtual environment. For example if you are using Django 1.9 for a project, you can install it like you install other packages.
+- Now you can install `dependencies` related to the project in this virtual environment. For example if you are using Flask 1.0.1 for a project, you can install it like you install other packages.
 
   ```python
-      pip install Django==1.9
+      pip install Flask==1.0.1
   ```
 
-- The Django 1.9 package will be placed in virtualenv_name folder and will be isolated from the complete system.
+- The Flask 1.0.1 package will be placed in virtualenv_name folder and will be isolated from the complete system.
 
 - Once you are done with the work, you can `deactivate` the virtual environment by the following command:
 

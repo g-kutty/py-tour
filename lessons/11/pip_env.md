@@ -33,7 +33,7 @@ title:
 ## Pipenv Features
 ***
 
-- Enables truly _deterministic_ builds, while easily specifying _only what you want_.
+- Enables truly `deterministic` builds, while easily specifying _only what you want_.
 
 - Generates and checks file hashes for locked dependencies.
 
@@ -48,8 +48,6 @@ title:
 - Automatically adds/removes packages to a `Pipfile` when they are un/installed.
 
 - Automatically loads `.env` files, if they exist.
-
-The main commands are _install_, _uninstall_, and _lock_, which generates a `Pipfile.lock`. These are intended to replace `pip install` usage, as well as manual virtualenv management (to activate a virtualenv, run `pipenv shell`).
 
 &nbsp;
 ## Basic Concepts
