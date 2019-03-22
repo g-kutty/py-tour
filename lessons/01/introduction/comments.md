@@ -3,7 +3,6 @@ layout: page
 title:
 ---
 ***
-
 ## Comments
 ***
 
@@ -16,14 +15,16 @@ title:
   - Provide context for why something is written the way it is:
 
     ```python
-        # This variable will be used to count the number of times anyone tweets the word persnickety
+        # This variable will be used to count
+        # the number of times anyone tweets the word persnickety
         persnickety_count = 0
     ```
 
   - Help other people reading the code understand it faster:
 
     ```python
-        # This code will calculate the likelihood that it will rain tomorrow
+        # This code will calculate the likelihood that
+        #it will rain tomorrow
         complicated_rain_calculation_for_tomorrow()
     ```
 

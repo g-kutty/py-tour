@@ -1,13 +1,16 @@
 ---
 layout: page
-title: 16 - Bitwise Operations
+title:
 ---
 ***
-
-## Just a Little BIT
+## Bitwise Operations
 ***
 
-- __Bitwise operations__ might seem a little esoteric and tricky at first, but you'll get the hang of them pretty quickly.
+&nbsp;
+### Just a Little BIT
+***
+
+- Bitwise operations might seem a little esoteric and tricky at first, but you'll get the hang of them pretty quickly.
 
 - Bitwise operations are operations that directly manipulate bits. In all computers, numbers are represented with bits, a series of zeros and ones. In fact, pretty much everything in a computer is represented by bits.
 
@@ -21,14 +24,14 @@ title: 16 - Bitwise Operations
     ```
 
 &nbsp;
-## The Base 2 Number System
+### The Base 2 Number System
 ***
 
 - When we count, we usually do it in base 10. That means that each place in a number can hold one of ten values, 0-9.
 
-- In _binary_ we count in _base two_, where each place can hold one of two values: 0 or 1.
+- In `binary` we count in `base two`, where each place can hold one of two values: 0 or 1.
 
-- Each place in a decimal number represents a power of _ten_, where each place in a binary number represents a power of two.
+- Each place in a decimal number represents a power of ten, where each place in a binary number represents a power of two.
 
 - The rightmost bit is the 1's bit(two to the zero power),  the next bit is the 2's bit(two to the first), then 4, 8, 16, 32, and so on.
 
@@ -49,7 +52,7 @@ title: 16 - Bitwise Operations
     ```
 
 &nbsp;
-## The bin() Function
+### The bin() Function
 ***
 
 - There are Python functions that can aid you with bitwise operations. In order to print a number in its binary representation, you can use the `bin()` function.
@@ -59,7 +62,7 @@ title: 16 - Bitwise Operations
 - You can also represent numbers in base 8 and base 16 using the `oct()` and `hex()` functions.
 
 &nbsp;
-## int()'s Second Parameter
+### int()'s Second Parameter
 ***
 
 - What you might not know is that the int function actually has an optional second parameter.
@@ -72,7 +75,7 @@ title: 16 - Bitwise Operations
 - When given a string containing a number and the base that number is in, the function will return the value of that number converted to corresponding base.
 
 &nbsp;
-## Slide to the Left! Slide to the Right
+### Slide to the Left! Slide to the Right
 ***
 
 - The next two operations we are going to talk about are the left and right shift bitwise operators.
@@ -89,10 +92,10 @@ title: 16 - Bitwise Operations
 
 - Shift operations are similar to rounding down after dividing and multiplying by 2 (respectively).
 
-- Note that you can only do bitwise operations on an `integer`. Trying to do them on _strings_ or _floats_ will result in nonsensical output!
+- Note that you can only do bitwise operations on an `integer`. Trying to do them on `strings` or `floats` will result in nonsensical output!
 
 &nbsp;
-## Binary AND
+### Binary AND
 ***
 
 - The bitwise AND (`&`) operator compares two numbers on a bit level and returns a number where the bits of that number are turned on if the corresponding bits of `both` numbers are 1.
@@ -105,7 +108,7 @@ title: 16 - Bitwise Operations
     ```
 
 &nbsp;
-## Binary OR
+### Binary OR
 ***
 
 - The bitwise OR (`|`) operator compares two numbers on a bit level and returns a number where the bits of that number are turned on if either of the corresponding bits of either number are 1.
@@ -120,10 +123,10 @@ title: 16 - Bitwise Operations
 - Note that the bitwise `|` operator can only create results that are greater than or equal to the larger of the two integer inputs.
 
 &nbsp;
-## Binary XOR
+### Binary XOR
 ***
 
-- The XOR (`^`) or exclusive or operator compares two numbers on a bit level and returns a number where the bits of that number are turned on if `either` of the corresponding bits of the two numbers are `1`, _but not both_.
+- The XOR (`^`) or exclusive or operator compares two numbers on a bit level and returns a number where the bits of that number are turned on if `either` of the corresponding bits of the two numbers are `1`, `but not both`.
 
     ```python
             a:  00101010   42
@@ -133,7 +136,7 @@ title: 16 - Bitwise Operations
     ```
 
 &nbsp;
-## Binary NOT
+### Binary NOT
 ***
 
 - The bitwise NOT operator (`~`) just flips all of the bits in a single number.
@@ -143,12 +146,12 @@ title: 16 - Bitwise Operations
 - Just know that mathematically, this is equivalent to adding one to the number and then making it negative.
 
 &nbsp;
-## The Man Behind the Bit Mask
+### The Man Behind the Bit Mask
 ***
 
 - A bit mask is just a variable that aids you with bitwise operations.
 
-- A bit mask can help you turn specific bits on, turn others off, or just collect data from an integer about which bits are on or off.
+- A bit mask can help you turn specific bits `on`, turn others `off`, or just collect data from an integer about which bits are on or off.
 
     ```python
         num  = 0b1100
@@ -169,10 +172,10 @@ title: 16 - Bitwise Operations
     4. If `desired` is greater than zero, then the third bit of `num` must have been one.
 
 &nbsp;
-## Turn It On
+### Turn It On
 ***
 
-- You can also use masks to turn a bit in a number on using `|`.
+- You can also use masks to turn a bit in a number `on` using `|`.
 
     ```python
         a = 0b110 # 6
@@ -180,10 +183,10 @@ title: 16 - Bitwise Operations
         desired =  a | mask # 0b111, or 7
     ```
 
-- Using the bitwise `|` operator will turn a corresponding bit on if it is off and leave it on if it is already on.
+- Using the bitwise `|` operator will turn a corresponding bit `on` if it is `off` and leave it on if it is already `on`.
 
 &nbsp;
-## Just Flip Out
+### Just Flip Out
 ***
 
 - Using the XOR (`^`) operator is very useful for flipping bits.
@@ -195,10 +198,10 @@ title: 16 - Bitwise Operations
     ```
 
 &nbsp;
-## Slip and Slide
+### Slip and Slide
 ***
 
-- Finally, you can also use the left shift (<<) and right shift (>>) operators to slide masks into place.
+- Finally, you can also use the left shift (`<<`) and right shift (`>>`) operators to slide masks into place.
 
     ```python
         a = 0b101

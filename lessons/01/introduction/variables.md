@@ -3,7 +3,6 @@ layout: page
 title:
 ---
 ***
-
 ## Variables
 ***
 
@@ -23,8 +22,6 @@ title:
 
 - Variables can't have spaces or symbols in their names other than an underscore (`_`). They can't begin with numbers but they can have numbers after the first letter
 
-- It's no coincidence we call these creatures "variables". If the context of a program changes, we can update a variable but perform the same logical process on it.
-
     ```python
         # Greeting
         message_string = "Hello there"
@@ -38,18 +35,18 @@ title:
 - Above, we create the variable `message_string`, assign a welcome message, and print the greeting. After we greet the user, we want to wish them goodbye. We then update `message_string` to a departure message and print that out.
 
 &nbsp;
-## Numbers
+### Numbers
 ***
 
-- Computers can understand much more than just strings of text. Python has a few numeric _data types_.
+- Computers can understand much more than just strings of text. Python has a few numeric data types.
 
 - It has multiple ways of storing numbers. Which one you use depends on your intended purpose for the number you are saving.
 
-- An _integer_, or `int`, is a whole number. It has no decimal point and contains all counting numbers as well as their negative counterparts and the number 0.
+- An integer, or `int`, is a whole number. It has no decimal point and contains all counting numbers as well as their negative counterparts and the number 0.
 
 - If you were counting the number of people in a room, the number of jellybeans in a jar, or the number of keys on a keyboard you would likely use an integer.
 
-- A _floating-point_ number, or a `float`, is a decimal number. It can be used to represent fractional quantities as well as precise measurements.
+- A floating-point number, or a `float`, is a decimal number. It can be used to represent fractional quantities as well as precise measurements.
 
 - If you were measuring the length of your bedroom wall, calculating the average test score of a seventh-grade class, or storing a baseball player's batting average for the 1998 season you would likely use a `float`.
 
@@ -63,19 +60,19 @@ title:
         # prints 5
     ```
 
-- Above we defined an integer and a float as the variables `an_int` and `a_float`. We printed out the sum of the variable `an_int` with the number 3.
+- Above we defined an integer and a float as the variables `an_int` and `a_float`. We printed out the sum of the variable `an_int` with the number `3`.
 
-- We call the number 3 here a _literal_, meaning it's actually the number `3` and not a variable with the number 3 assigned to it.
+- We call the number 3 here a `literal`, meaning it's actually the number 3 and not a variable with the number 3 assigned to it.
 
 - Floating-point numbers can behave in some unexpected ways due to how computers store them. For more information on floating-point numbers and Python, review [Python's documentation on floating-point limitations](https://docs.python.org/3/tutorial/floatingpoint.html).
 
 &nbsp;
-## Changing Numbers
+### Changing Numbers
 ***
 
 - Variables that are assigned numeric values can be treated the same as the numbers themselves.
 
-- Two variables can be added together, divided by 2, and multiplied by a third variable without Python distinguishing between the variables and _literals_.
+- Two variables can be added together, divided by 2, and multiplied by a third variable without Python distinguishing between the variables and literals.
 
 - Performing arithmetic on variables does not change the variable — you can only update a variable using the `=` sign.
 
@@ -104,7 +101,7 @@ title:
 - We create two variables and assign numeric values to them. Then we perform a calculation on them. This doesn't update the variables! When we update the `coffee_price` variable and perform the calculations again, they use the updated values for the variable!
 
 &nbsp;
-## Plus Equals
+### Plus Equals
 ***
 
 - Python offers a shorthand for updating variables.
@@ -142,10 +139,10 @@ title:
 - We create the social media caption for the photograph of nature we took on our hike, but then update the caption to include important social media tags we almost forgot.
 
 &nbsp;
-## Booleans
+### Booleans
 ***
 
-- Sometimes we have a need for variables that are either `true` or `false`. This datatype, which can only ever take one of two values, is called a __boolean__.
+- Sometimes we have a need for variables that are either `true` or `false`. This datatype, which can only ever take one of two values, is called a boolean.
 
 - In Python, we define booleans using the keywords `True` and `False`:
 

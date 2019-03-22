@@ -3,7 +3,6 @@ layout: page
 title:
 ---
 ***
-
 ## Calculations
 ***
 
@@ -22,19 +21,19 @@ title:
         print(10 / 5)
     ```
 
-- Notice that when we perform division, the result has a decimal place. This is because Python converts all `int`s to `float`s before performing division.
+- Notice that when we perform division, the result has a decimal place. This is because Python converts all `int` to `float` before performing division.
 
 - In older versions of Python (2.7 and earlier) this conversion did not happen, and integer division would always round down to the nearest integer.
 
-- Division can throw its own special error: `ZeroDivisionError`. Python will raise this error when attempting to divide by 0.
+- Division can throw its own special error: `ZeroDivisionError`. Python will raise this error when attempting to divide by `0`.
 
 - Mathematical operations in Python follow the standard mathematical [order of operations](https://en.wikipedia.org/wiki/Order_of_operations).
 
 &nbsp;
-## Exponents
+### Exponents
 ***
 
-- Python can also perform exponentiation. In written math, you might see an exponent as a superscript number, but typing superscript numbers isn't always easy on modern keyboards.
+- Python can also perform `exponentiation`. In written math, you might see an exponent as a superscript number, but typing superscript numbers isn't always easy on modern keyboards.
 
 - Since this operation is so related to multiplication, we use the notation `**`.
 
@@ -56,10 +55,10 @@ title:
 - Here, we compute some simple exponents. We calculate 2 to the 10th power, 8 to the 2nd power, 9 to the 3rd power, and 4 to the 0.5th power.
 
 &nbsp;
-## Modulo
+### Modulo
 ***
 
-- Python offers a companion to the division operator called the modulo operator.
+- Python offers a companion to the division operator called the `modulo` operator.
 
 - The modulo operator is indicated by `%` and gives the remainder of a division calculation.
 

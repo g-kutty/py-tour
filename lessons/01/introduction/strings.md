@@ -3,7 +3,6 @@ layout: page
 title:
 ---
 ***
-
 ## Strings
 ***
 
@@ -12,7 +11,7 @@ title:
 - In Python a string is either surrounded by double quotes (`"Hello world"`) or single quotes (`'Hello world'`). It doesn't matter which kind you use, just be consistent.
 
 &nbsp;
-## Concatenation
+### Concatenation
 ***
 
 - The `+` operator doesn't just add two numbers, it can also "add" two strings! The process of combining two strings is called _string concatenation_.
@@ -62,7 +61,7 @@ title:
 - But we don't need to convert a number to a string for it to be an argument to a print statement.
 
 &nbsp;
-## Multi-line Strings
+### Multi-line Strings
 ***
 
 - Python strings are very flexible, but if we try to create a string that occupies multiple lines we find ourselves face-to-face with a `SyntaxError`.
